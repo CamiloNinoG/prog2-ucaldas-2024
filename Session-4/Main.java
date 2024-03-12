@@ -8,6 +8,9 @@ public class Main {
         ejercicio2.E2();
         Exercise3 ejercicio3 = new Exercise3(); 
         ejercicio3.E3();
+
+        lista mi_lista = new lista();
+        mi_lista.mostrarArrayTarea();
     }
 
 }
