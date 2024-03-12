@@ -18,7 +18,7 @@ public class lista{
 
     System.out.println("Ingrese la informacion sobre las 5 tareas diarias");
 
-    for ( int i = 1; i <=1; i++){
+    for ( int i = 1; i <=5; i++){
         boolean bandera = true;
         System.out.println("Ingrese el nombre de la tarea "+i);
         nombre_tarea = scn.nextLine();
