@@ -1,7 +1,12 @@
+
 public class Main{
     public static void main(String[]args){
-        lista mi_lista = new lista();
 
-        mi_lista.mostrarArrayTarea();
+        // SuperHeroes Array Class Instanst
+        SuperHeroes superHeroe1 = new SuperHeroes();
+        superHeroe1.addSuperHeroes();
+        superHeroe1.printHeroeInformation();
+       
+
     }
 }

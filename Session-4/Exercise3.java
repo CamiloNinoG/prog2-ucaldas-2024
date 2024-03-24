@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Exercise3 {
     public void E3() {
 
-        Scanner scn = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         String buscar = "";
         
@@ -21,12 +21,13 @@ public class Exercise3 {
 
         System.out.println("LinkedList: " + listaEnlazada);
         System.out.println("Ingrese el elemento que desa buscar dentro de la lista");
-        buscar = scn.nextLine();
+        buscar = sc.nextLine();
 
-        System.out.println("El elemento se encuentra dentro de la lista? : "+Flag(listaEnlazada, buscar));
+        System.out.println("¿El elemento se encuentra dentro de la lista? : "+Flag(listaEnlazada, buscar));
 
     }
 
+    //Method to find element on linked list
     public boolean Flag(LinkedList<String> list, String word){
         for(String k:list){
             if(k.equals(word)){
