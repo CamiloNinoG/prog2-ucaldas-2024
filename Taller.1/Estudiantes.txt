@@ -1,0 +1,10 @@
+Sofía Martínez;12345;Ingeniería de Sistemas;3.7
+Santiago López;23456;Ingeniería de Sistemas;4.2
+Valentina García;4567;Ingeniería de Sistemas;2.9
+Mateo Rodríguez;5678;Ingeniería Civil;1.8
+Isabella Pérez;56789;Ingeniería Civil;4.5
+Sebastián González;67890;Ingeniería Civil;3.1
+Camila Hernández;78901;Enfermeria;2.4
+Daniel Díaz;89012;Enfermeria;3.9
+Mariana Sánchez;0123;Enfermeria;4.7
+Juan Ramírez;01234;Ingeniería de Sistemas;3.6
