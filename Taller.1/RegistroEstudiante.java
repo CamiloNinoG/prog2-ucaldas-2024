@@ -8,6 +8,7 @@ public class RegistroEstudiante {
 
     public ArrayList<Estudiante> estudiantes = new ArrayList<>();
     Scanner scn = new Scanner(System.in);
+    Scanner scn1 = new Scanner (System.in);
 
     int opcion = 0, opcion_1 = 0, cuantos = 0;
     String nombre = "", codigo = "", carrera = "", filtro = "";
@@ -29,16 +30,15 @@ public class RegistroEstudiante {
             System.out.println("3. Listar estudiante");
             System.out.println("4. Buscar estudiante");
             System.out.println("5. Exit");
-            opcion = scn.nextInt();
+            opcion = scn1.nextInt();
             switch (opcion) {
                 case 1:
                     System.out.println("Ingrese el numero de estudiantes a agregar ");
-                    cuantos = scn.nextInt();
+                    cuantos = scn1.nextInt();
                     agregarEstudiante(cuantos);
                     break;
                 case 2:
                     System.out.println("Ingrese el codigo del estudiante a eliminar");
-                    codigo = scn.nextLine();
                     codigo = scn.nextLine();
                     eliminarEstudiante(codigo);
                     break;
@@ -47,10 +47,9 @@ public class RegistroEstudiante {
                     break;
                 case 4:
                     System.out.println("Buscar por: \n 1.Nombre\n 2.Codigo\n 3.Carrera");
-                    opcion_1 = scn.nextInt();
+                    opcion_1 = scn1.nextInt();
                     if (opcion_1 == 1 || opcion_1 == 2 || opcion_1 == 3) {
                         System.out.println("Ingrese el filtro");
-                        filtro = scn.nextLine();
                         filtro = scn.nextLine();
                         buscarEstudiantes(filtro);
                     } else {
@@ -95,7 +94,6 @@ public class RegistroEstudiante {
         for (int i = 1; i <= cuantos; i++) {
             System.out.println("Ingrese los datos del estudiante " + (i));
             System.out.println("Nombre:");
-            nombre = scn.nextLine();
             nombre = scn.nextLine();
             System.out.println("Codigo::");
             codigo = scn.nextLine();
