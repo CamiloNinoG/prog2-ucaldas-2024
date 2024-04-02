@@ -1,0 +1,5 @@
+lacteos;Productos derivados de la leche, como leche, queso, mantequilla y yogur.
+frutas y verduras;Incluye una variedad de frutas frescas, verduras y hortalizas.
+carnes y aves;Incluye carne de res, cerdo, pollo, pavo y otros productos cárnicos.
+productos de despensa;Productos no perecederos como arroz, pasta, legumbres enlatadas, aceites, salsas y condimentos.
+productos de limpieza;Incluye detergentes, jabones, desinfectantes, limpiadores multiuso y otros productos para la limpieza del hogar.

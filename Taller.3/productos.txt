@@ -1,0 +1,5 @@
+manzanas;frutas y verduras;2.99;10
+leche entera;lacteos;1.99;50
+pollo entero;carnes y aves;6.49;30
+pasta espagueti;productos de despensa;1.49;80
+detergente liquido;productos de limpieza;4.99;20

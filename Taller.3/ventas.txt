@@ -1,0 +1,5 @@
+manzanas;7;2024;05;20
+leche entera;5;2024;04;21
+pollo entero;11;2024;03;22
+pasta espagueti;20;2024;02;23
+detergente liquido;4;2024;01;24
