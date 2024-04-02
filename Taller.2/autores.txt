@@ -1,0 +1,5 @@
+Gabriel Garcia Marquez;Colombiano
+J.K. Rowling;Británico
+Haruki Murakami;Japonés
+Jane Austen;Británico
+Mark Twain;Estadounidense

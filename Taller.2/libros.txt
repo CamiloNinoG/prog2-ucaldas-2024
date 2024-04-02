@@ -1,0 +1,5 @@
+Cien anos de soledad;34;ficcion;50;Gabriel Garcia Marquez
+Harry Potter y la piedra filosofal;98765432;fantasia;40;J.K. Rowling
+Norwegian Wood;45678912;ficcion;40;Haruki Murakami
+Orgullo y prejuicio;789123456;clasico;50;Jane Austen
+Las aventuras de Tom Sawyer;32165498;aventura;30;Mark Twain
