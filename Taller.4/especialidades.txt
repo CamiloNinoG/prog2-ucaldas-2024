@@ -1,0 +1,3 @@
+Cardiologia;Especialidad médica encargada del diagnóstico y tratamiento de enfermedades del corazón y del sistema cardiovascular.
+Dermatologia;Especialidad médica que se ocupa del diagnóstico y tratamiento de enfermedades de la piel, cabello y uñas.
+Neurologia;Especialidad médica dedicada al estudio y tratamiento de enfermedades que afectan al sistema nervioso central y periférico, como el cerebro, médula espinal y nervios.

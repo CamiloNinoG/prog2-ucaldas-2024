@@ -1,0 +1,5 @@
+Juan Nuez;Dr. Carlos Ramirez;2024;12;20;07;30;pendiente
+Maria Lopez;Dra. Laura Martinez;2024;12;21;10;00;pendiente
+Carlos Martinez;Dr. Juan Perez;2024;12;22;14;30;confirmada
+Ana Rodriguez;Dr. Carlos Ramirez;2024;12;23;09;45;pendiente
+Jorge Gomez;Dr. Juan Perez;2024;10;5;9;30;cancelada
