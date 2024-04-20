@@ -1,0 +1,6 @@
+Jose;123 456;jose@ucaldas.edu.co
+Juan;123 987;juan@ucaldas.edu.co
+Maria;101 112;maria@ucaldas.edu.co
+Manuel;123 556;manuel@ucaldas.edu.co
+Manolo;123 987;mano@ucaldas.edu.co
+Mariamendez;101 121;mariamendez@ucaldas.edu.co
