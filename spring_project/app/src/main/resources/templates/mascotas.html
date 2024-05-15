@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Mascotas</h3>
+        <table border="4">
+            <tr> 
+                <!-- columnas  -->
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+                <th>Tipo mascota</th>
+                <th>Veterinaria</th>
+            </tr>
+            <tr th:each="mascota:${mascotasListAttributes}">
+                <td th:text="${mascota.nombre}"></td>
+                <td th:text="${mascota.edad}"></td>
+                <td th:text="${mascota.sexo}"></td>
+                <td th:text="${mascota.tipo_mascota}"></td>
+                <td th:text="${mascota.veterinaria}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+

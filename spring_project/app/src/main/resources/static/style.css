@@ -1,0 +1,21 @@
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+div{
+    padding: 10px;
+}
+
+button{
+    color: red;
+}

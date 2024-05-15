@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Vehiculos</h3>
+        <table border="4">
+            <tr> 
+                <!-- columnas  -->
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Tipo vehiculo</th>
+                <th>Color</th>
+            </tr>
+            <tr th:each="vehiculo:${vehiculosListAttributes}">
+                <td th:text="${vehiculo.marca}"></td>
+                <td th:text="${vehiculo.modelo}"></td>
+                <td th:text="${vehiculo.tipo_vehiculo}"></td>
+                <td th:text="${vehiculo.color}"></td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>

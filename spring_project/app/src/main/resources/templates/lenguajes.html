@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Lenguajes</h3>
+        <table border="4">
+            <tr> 
+                <!-- columnas  -->
+                <th>Lenguaje</th>
+                <th>Tipo lenguaje</th>
+                <th>Frameworks</th>
+        
+            </tr>
+            <tr th:each="lenguaje:${lenguajesListAttributes}">
+                <td th:text="${lenguaje.lenguaje}"></td>
+                <td th:text="${lenguaje.tipo_paradigma}"></td>
+                <td th:text="${lenguaje.frameworks}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

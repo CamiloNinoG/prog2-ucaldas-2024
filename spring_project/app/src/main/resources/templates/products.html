@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Products</h3>
+        <table border="1">
+            <tr> 
+                <!-- columnas  -->
+                <th>Product</th>
+                <th>Description</th>
+            </tr>
+            <!-- se recorre la lista del controlador mediante un for each -->
+            <tr th:each="product: ${productListAttributes}">
+                <!-- contenido interno -->
+                <td th:text="${product.product_name}"></td>
+                <td th:text="${product.description}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
