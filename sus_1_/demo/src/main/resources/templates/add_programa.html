@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>New Programa ;3</h3>
+    <form th:action="@{/new-programa}" th:object ="${programa}" method ="post">
+        <div>
+            <label for = "nivel" >Nivel</label>
+            <input type="text" id ="nivel" th:field="*{nivel}"/>
+        </div>
+        <div>
+            <label for = "nombreProgram" >Nombre Programa</label>
+            <input type="text" id ="nombreProgram" th:field="*{nombreProgram}"/>
+        </div>
+        <div>
+            <label for = "creditos" >Creditos</label>
+            <input type="text" id ="creditos" th:field="*{creditos}"/>
+        </div>
+        <div>
+            <label for = "estado" >Estado</label>
+            <input type="text" id ="estado" th:field="*{estado}"/>
+        </div>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

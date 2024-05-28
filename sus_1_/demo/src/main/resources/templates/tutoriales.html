@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Tutoriales</h3>
+        <table border="4">
+            <tr> 
+                <!-- columnas  -->
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>URL</th>
+                <th>Estado</th>
+        
+            </tr>
+            <tr th:each="programa:${tutorialListAttribute}">
+                <td th:text="${programa.nombre}"></td>
+                <td th:text="${programa.descripcion}"></td>
+                <td th:text="${programa.url}"></td>
+                <td th:text="${programa.estado}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

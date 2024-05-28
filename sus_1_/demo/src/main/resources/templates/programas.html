@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">    
+        <h3>Programsas</h3>
+        <table border="4">
+            <tr> 
+                <!-- columnas  -->
+                <th>Nivel</th>
+                <th>Nombre Programa</th>
+                <th>Creditos</th>
+                <th>Estado</th>
+        
+            </tr>
+            <tr th:each="programa:${programaListAttribute}">
+                <td th:text="${programa.nivel}"></td>
+                <td th:text="${programa.nombreProgram}"></td>
+                <td th:text="${programa.creditos}"></td>
+                <td th:text="${programa.estado}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

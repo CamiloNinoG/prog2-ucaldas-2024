@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Programa</h3>
+        Nivel: <span th:text="${programaAttributes.nivel}"></span><br />
+        Nombre Programa: <span th:text="${programaAttributes.nombreProgram}"></span><br />
+        Créditos: <span th:text="${programaAttributes.creditos}"></span><br />
+        Estado: <span th:text="${programaAttributes.estado}"></span><br />
+    </div>
+</body>
+
+</html>

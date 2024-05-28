@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Tutorial</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Add Tutorial</h3>
+        <form action="#" th:action="@{/new-tutorial}" th:object="${tutorial}" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" th:field="*{nombre}" />
+            </div>
+            <div>
+                <label for="descripcion">Descripción:</label>
+                <input type="text" id="descripcion" th:field="*{descripcion}" />
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" id="url" th:field="*{url}" />
+            </div>
+            <div>
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" th:field="*{estado}" />
+            </div>
+            <div>
+                <button type="submit">Guardar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

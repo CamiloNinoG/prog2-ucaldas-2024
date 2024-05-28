@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Programa</h3>
+        Nombre: <span th:text="${tutorialAttributes.nombre}"></span>
+        <br />
+        Descripción: <span th:text="${tutorialAttributes.descripcion}"></span>
+        <br />
+        URL: <span th:text="${tutorialAttributes.url}"></span>
+        <br />
+        Estado: <span th:text="${tutorialAttributes.estado}"></span>
+    </div>
+</body>
+</html>
