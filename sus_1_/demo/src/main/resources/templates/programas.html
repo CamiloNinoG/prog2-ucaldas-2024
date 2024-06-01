@@ -15,14 +15,15 @@
                 <th>Nombre Programa</th>
                 <th>Creditos</th>
                 <th>Estado</th>
+                <th>+ info.</th>
         
             </tr>
-            <tr th:each="programa:${programaListAttribute}">
+            <tr th:each="programa : ${programaListAttribute}">
                 <td th:text="${programa.nivel}"></td>
                 <td th:text="${programa.nombreProgram}"></td>
                 <td th:text="${programa.creditos}"></td>
                 <td th:text="${programa.estado}"></td>
-            </tr>
+                <td><a th:href="@{'/programa/' + ${programa.nombreProgram}}">Info programas</a></td>        </tr>
         </table>
     </div>
 </body>

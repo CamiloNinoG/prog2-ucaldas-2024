@@ -15,6 +15,7 @@
                 <th>Descripcion</th>
                 <th>URL</th>
                 <th>Estado</th>
+                <th>+ info.</th>
         
             </tr>
             <tr th:each="programa:${tutorialListAttribute}">
@@ -22,6 +23,8 @@
                 <td th:text="${programa.descripcion}"></td>
                 <td th:text="${programa.url}"></td>
                 <td th:text="${programa.estado}"></td>
+                <td><a href="/tutorial">Ir al tutorial</a></td>
+
             </tr>
         </table>
     </div>

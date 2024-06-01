@@ -34,5 +34,12 @@ public class ProgramImplem implements ProgramaService {
         .findFirst()
         .orElse(null);
     }
+
+    @Override
+    public Programa showProgramByName(String name) {
+        return programas.stream().filter(programa -> programa.getNombreProgram().equals(name))
+        .findFirst()
+        .orElse(null);
+    }
     
 }

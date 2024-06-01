@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa</title>
+    <title>Detalles del programa</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" th:if="${programa != null}">
         <h3>Programa</h3>
-        Nivel: <span th:text="${programaAttributes.nivel}"></span><br />
-        Nombre Programa: <span th:text="${programaAttributes.nombreProgram}"></span><br />
-        Créditos: <span th:text="${programaAttributes.creditos}"></span><br />
-        Estado: <span th:text="${programaAttributes.estado}"></span><br />
+        Nivel: <span th:text="${programa.nivel}"></span><br />
+        Nombre Programa: <span th:text="${programa.nombreProgram}"></span><br />
+        Créditos: <span th:text="${programa.creditos}"></span><br />
+        Estado: <span th:text="${programa.estado}"></span><br />
     </div>
+    <div class="container" th:unless="${programa != null}">
+        <p>El programa no se encontró.</p>
+    </div>
+    
 </body>
 
 </html>

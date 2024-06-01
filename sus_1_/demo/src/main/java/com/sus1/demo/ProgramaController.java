@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.sus1.demo.domain.Programa;
@@ -45,5 +46,12 @@ public class ProgramaController {
     public String saveprograma(@ModelAttribute("programa") Programa programa) {
         programService.saveProgram(programa);
         return "redirect:/programas";
+    }
+
+    @GetMapping("/programa/{nombreProgram}")
+    public String verDetallesPrograma(@PathVariable String nombreProgram, Model model) {
+        Programa programa = programService.showProgramByName(nombreProgram);
+        model.addAttribute("programa", programa);
+        return "programa";
     }
 }
